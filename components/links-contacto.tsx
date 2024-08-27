@@ -5,7 +5,7 @@ import { faAddressBook, faAddressCard, faContactBook, faEnvelope, faGlassMartini
 
 const SocialLinks = () => {
   return (
-    <div className="flex pb-3 flex-row justify-center items-center gap-20 mt-12">
+    <div className="flex pb-3 flex-row justify-center items-center gap-12 mt-12">
 
         <a href="mailto:a.mondani@hotmail.com" style={{ width: '40px', height: '40px' }} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-gray-600 hover:text-gray-800">
             <FontAwesomeIcon icon={faEnvelope} size="10x" />

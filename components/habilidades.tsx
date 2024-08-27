@@ -58,7 +58,7 @@ const LanguageExperience = () => {
   return (
     <div className='my-10'>
         <h2 className="text-center mb-5 text-3xl font-semibold text-orange-400 ">Habiliades</h2>
-        <div className="flex flex-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mx-56">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 mx-auto sm:mx-4 md:mx-12 lg:mx-24">
             {languages.map((language, index) => (
             <div key={index} className="flex items-start">
                 <FontAwesomeIcon style={{ width: '40px', height: '40px' }} icon={language.icon} size="10x" className={`text-${language.color}-600 mr-4`} />
