@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Perfil = () => {
     return (
-        <div className="flex flex-col md:flex-row my-20 pt-36 mx-auto sm:mx-4 md:mx-12 lg:mx-24 xl:mx-56 bg-transparent shadow-lg rounded-lg overflow-hidden">
+        <div id="perfil" className="flex flex-col md:flex-row my-20 pt-36 mx-auto sm:mx-4 md:mx-12 lg:mx-24 xl:mx-56 bg-transparent shadow-lg rounded-lg overflow-hidden">
             <div className="flex justify-center md:justify-start items-center px-6 py-4">
                 <div className="h-40 w-40 z-30 rounded-full overflow-hidden">
                     <img 

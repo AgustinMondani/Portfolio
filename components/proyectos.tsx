@@ -3,7 +3,7 @@ import { faLinkedin, faGithub, faWhatsapp, faYoutube } from '@fortawesome/free-b
 
 const Proyectos = () => {
   return (
-      <div className="flex-2 my-20 mx-auto sm:mx-4 md:mx-12 lg:mx-24 xl:mx-56 p-6 bg-transparent bg-opacity-90 z-40 shadow-lg rounded-lg overflow-hidden">
+      <div id='proyectos' className="flex-2 my-10 pt-24 mx-auto sm:mx-4 md:mx-12 lg:mx-24 xl:mx-56 p-6 bg-transparent bg-opacity-90 z-40 shadow-lg rounded-lg overflow-hidden">
           <h2 className="text-center mb-5 text-3xl font-semibold text-orange-400 ">Mis Proyectos</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
               
